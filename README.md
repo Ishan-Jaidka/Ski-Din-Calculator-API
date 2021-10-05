@@ -16,7 +16,7 @@ Uses URL query parameters in the form of a query string. Order does NOT matter, 
 ```
 units: 'standard' || 'metric'
 type: 0-4
-hieght: [height in inches/cm]
+height: [height in inches/cm]
 weight: [weight in lbs/kgs]
 age: [age]
 bsl: [boot sole length in mm]
