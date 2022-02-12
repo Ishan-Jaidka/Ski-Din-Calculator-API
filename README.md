@@ -5,10 +5,11 @@ Use the Ski Din calculator API to determine what DIN setting (release tension) t
 ### URL:
 
 ```
-https://nigrpszsh3.execute-api.us-east-1.amazonaws.com/getdin/ski-din-calculator
+https://s2nsl6jo8i.execute-api.us-east-1.amazonaws.com/dincalc/calculate
 ```
 
 ## GET Request
+
 Uses URL query parameters in the form of a query string. Order does NOT matter, but all parameters are required.
 
 ### Request Parameters:
@@ -23,8 +24,9 @@ bsl: [boot sole length in mm]
 ```
 
 ### Sample Request:
+
 ```
-https://nigrpszsh3.execute-api.us-east-1.amazonaws.com/getdin/ski-din-calculator?units=standard&type=2&height=72&weight=160&age=69&bsl=315
+https://s2nsl6jo8i.execute-api.us-east-1.amazonaws.com/dincalc/calculate?units=standard&type=2&height=72&weight=160&age=69&bsl=315
 ```
 
 ### Response.data Object:
@@ -62,4 +64,3 @@ If invalid query parameters are used, access the error message using the followi
 ```
 error.response.data
 ```
-
