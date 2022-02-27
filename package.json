@@ -1,0 +1,19 @@
+{
+  "name": "din-calculator-api",
+  "version": "1.0.0",
+  "description": "Use the Ski Din calculator API to determine what DIN setting (release tension) to set your ski bindings. USE AT YOUR OWN RISK. The algorithm uses the 2016/17 Marker DIN chart to calculate the DIN based on skier parameters (height, weight, age, boot sole length, type).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ishan-Jaidka/din-calculator-api.git"
+  },
+  "author": "Ishan Jaidka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ishan-Jaidka/din-calculator-api/issues"
+  },
+  "homepage": "https://github.com/Ishan-Jaidka/din-calculator-api#readme"
+}
