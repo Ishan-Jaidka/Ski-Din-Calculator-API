@@ -5,7 +5,7 @@ Use the Ski Din calculator API to determine what DIN setting (release tension) t
 ### URL:
 
 ```
-https://s2nsl6jo8i.execute-api.us-east-1.amazonaws.com/dincalc/calculate
+https://ski-din-calculator.vercel.app/api/DIN/calculate
 ```
 
 ## GET Request
@@ -26,7 +26,7 @@ bsl: [boot sole length in mm]
 ### Sample Request:
 
 ```
-https://s2nsl6jo8i.execute-api.us-east-1.amazonaws.com/dincalc/calculate?units=standard&type=2&height=72&weight=160&age=69&bsl=315
+https://ski-din-calculator.vercel.app/api/DIN/calculate?units=standard&type=2&height=72&weight=160&age=69&bsl=315
 ```
 
 ### Response.data Object:
